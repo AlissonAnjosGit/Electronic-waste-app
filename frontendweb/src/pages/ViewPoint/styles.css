@@ -1,0 +1,233 @@
+
+
+#view-point .content {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#view-point header {
+  margin-top: 48px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#view-point header a {
+  color: var(--title-color);
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#view-point header a svg {
+  margin-right: 16px;
+  color: var(--primary-color);
+}
+
+
+#view-point .content main {
+  flex: 1;
+  max-width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#view-point .content main h1 {
+  font-size: 54px;
+  color: var(--title-color);
+}
+
+#view-point .content main p {
+  font-size: 24px;
+  margin-top: 24px;
+  line-height: 38px;
+}
+
+#view-point .content main a {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  margin-top: 40px;
+}
+
+#view-point .content main a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#view-point .content main a span svg {
+  color: rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+}
+
+#view-point .content main a strong {
+  flex: 1;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#view-point .content main a:hover {
+  background: #2FB86E;
+}
+
+@media(max-width: 900px) {
+  #view-point .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #view-point .content header {
+    margin: 48px auto 0;
+  }
+
+  #view-point .content main {
+    align-items: center;
+  }
+
+  #view-point .content main h1 {
+    font-size: 42px;
+  }
+
+  #view-point .content main p {
+    font-size: 24px;
+  }
+}
+
+
+
+#view-point form {
+  margin: 40px auto;
+  padding: 64px;
+  max-width: fit-content;
+  background: rgb(236, 229, 229);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#view-point form h1 {
+  font-size: 36px;
+}
+
+#view-point form fieldset {
+  margin-top: 64px;
+  min-inline-size: auto;
+  border: 0;
+}
+
+#view-point form legend {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#view-point form legend h2 {
+  font-size: 24px;
+}
+
+#view-point form legend span {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--text-color);
+}
+
+#view-point form .field-group {
+  flex: 1;
+  display: flex;
+}
+
+#view-point form .field {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+#view-point form .field input[type=text],
+#view-point form .field input[type=email],
+#view-point form .field input[type=number] {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6C6C80;
+}
+
+#view-point form .field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  flex: 1;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  color: #6C6C80;
+}
+
+#view-point form .field input::placeholder {
+  color: #A0A0B2;
+}
+
+#view-point form .field label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+#view-point form .field :disabled {
+  cursor: not-allowed;
+}
+
+#view-point form .field-group .field + .field {
+  margin-left: 24px;
+}
+
+#view-point form .field-group input + input {
+  margin-left: 24px;
+}
+
+#view-point form .field-check {
+  flex-direction: row;
+  align-items: center;
+}
+
+#view-point form .field-check input[type=checkbox] {
+  background: #F0F0F5;
+}
+
+#view-point form .field-check label {
+  margin: 0 0 0 8px;
+}

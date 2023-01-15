@@ -1,0 +1,213 @@
+#search-points {
+    height: 100vh;
+  
+    background: url('../../assets/home-background.jpg') no-repeat 750px bottom;
+  }
+  
+  #search-points .content {
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  #search-points header {
+    margin-top: 48px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #search-points header a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-points header a svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+  }
+
+
+  #search-points .content main {
+    flex: 1;
+    max-width: 560px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #search-points .content main h1 {
+    font-size: 54px;
+    color: var(--title-color);
+  }
+  
+  #search-points .content main p {
+    font-size: 24px;
+    margin-top: 24px;
+    line-height: 38px;
+  }
+  
+  #search-points .content main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  
+    margin-top: 40px;
+  }
+  
+  #search-points .content main a span {
+    display: block;
+    background: rgba(0, 0, 0, 0.08);
+    width: 72px;
+    height: 72px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+  }
+  
+  #search-points .content main a span svg {
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+  }
+  
+  #search-points .content main a strong {
+    flex: 1;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  #search-points .content main a:hover {
+    background: #2FB86E;
+  }
+  
+  @media(max-width: 900px) {
+    #search-points .content {
+      align-items: center;
+      text-align: center;
+    }
+  
+    #search-points .content header {
+      margin: 48px auto 0;
+    }
+  
+    #search-points .content main {
+      align-items: center;
+    }
+  
+    #search-points .content main h1 {
+      font-size: 42px;
+    }
+  
+    #search-points .content main p {
+      font-size: 24px;
+    }
+  }
+
+  #search-points form {
+    margin: 40px auto;
+    padding: 64px;
+    max-width: 730px;
+    background: rgb(236, 229, 229);
+    border-radius: 8px;
+  
+    display: flex;
+    flex-direction: column;
+  }
+
+  #search-points form .field-group {
+    flex: 1;
+    display: flex;
+  }
+  
+  #search-points form .field {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  #search-points form .field select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    flex: 1;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+  }
+  
+  #search-points form .field input::placeholder {
+    color: #A0A0B2;
+  }
+  
+  #search-points form .field label {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  #search-points form .field :disabled {
+    cursor: not-allowed;
+  }
+  
+  #search-points form .field-group .field + .field {
+    margin-left: 24px;
+  }
+  
+  #search-points form .field-group input + input {
+    margin-left: 24px;
+  }
+  
+  #search-points form .field-check {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #search-points form .field-check input[type=checkbox] {
+    background: #F0F0F5;
+  }
+  
+  #search-points form .field-check label {
+    margin: 0 0 0 8px;
+  }
+
+  #search-points form button {
+    width: 260px;
+    height: 56px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+   
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  #search-points form button:hover {
+    background: #2FB86E;
+  }
