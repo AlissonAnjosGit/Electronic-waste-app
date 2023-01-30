@@ -9,10 +9,10 @@ Esta é uma aplicação que possibilita ao consumidor de produtos eletrônicos, 
 foi inspirado no [Ecoleta](https://github.com/rocketseat-education/nlw-01-omnistack) da primeira Next Level Week da Rocketseat .
 
 ## Tecnologias utilizadas:
-<h2 align="center"><img src="https://github.com/PauloHenriqueSousa2020/be-the-hero/blob/master/imgs/js.png" height="18" alt="javascript"> JavaScript, 
-<img src="https://github.com/PauloHenriqueSousa2020/be-the-hero/blob/master/imgs/node.png" alt="node" height="18"> Node, 
-<img src="https://github.com/PauloHenriqueSousa2020/be-the-hero/blob/master/imgs/react.png" alt="react" height="18"> React, 
-e <img src="https://github.com/PauloHenriqueSousa2020/be-the-hero/blob/master/imgs/sqlite.png" alt="sqlite" height="18"> SQLite.</h2>
+<h2 align="center"><img src="https://github.com/AlissonAnjosGit/Assets/blob/main/tecnologias/typescript.png" height="18" alt="typescript"> TypeScript, 
+<img src="https://github.com/AlissonAnjosGit/Assets/blob/main/tecnologias/node.png" alt="node" height="18"> Node, 
+<img src="https://github.com/AlissonAnjosGit/Assets/blob/main/tecnologias/react.png" alt="react" height="18"> React, 
+e <img src="https://github.com/AlissonAnjosGit/Assets/blob/main/tecnologias/sqlite.png" alt="sqlite" height="18"> SQLite.</h2>
 
 <h3> Outras tecnologias: </h3>
 <ul>
